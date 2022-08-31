@@ -6,6 +6,9 @@
     --gris: #757575;
 }
 
+
+/* Globales */
+
 html {
     font-size: 62.5%;
     box-sizing: border-box;
@@ -22,6 +25,34 @@ body {
     font-size: 16px;
     font-family: 'Krub', sans-serif;
 }
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.boton {
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 1.5rem;
+    width: 80%;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .boton {
+        width: auto;
+    }
+}
+
+
+/* Tipografías */
 
 h1 {
     font-size: 3.8rem;
@@ -41,14 +72,15 @@ h3 {
     text-align: center;
 }
 
+
+/* Titulos */
+
 .titulo span {
     font-size: 2rem;
 }
 
-.contenedor {
-    max-width: 120rem;
-    margin: 0 auto;
-}
+
+/* Navegación Principal */
 
 .nav-bg {
     background-color: var(--secundario);
@@ -81,6 +113,9 @@ h3 {
     color: var(--oscuro);
 }
 
+
+/* Hero */
+
 .hero {
     background-image: url(https://firebasestorage.googleapis.com/v0/b/webdesignoficial-5dcdd.appspot.com/o/images%2Faryan-dhiman-iGLLtLINSkw-unsplash.jpg?alt=media&token=7bfb39e7-7f68-4edd-bbd8-c7fc0d289974);
     background-repeat: no-repeat;
@@ -107,7 +142,7 @@ h3 {
     color: var(--blanco);
 }
 
-.ubicacion {
+.contenido-hero .ubicacion {
     display: flex;
     align-items: flex-end;
 }
